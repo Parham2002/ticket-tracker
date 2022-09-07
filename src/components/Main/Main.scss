@@ -3,10 +3,14 @@
     margin: 0;
 }
 
-.main {
+.main-container {
     position: absolute;
     width: 97%;
     height: 81%;
     border: 2px solid green;
     padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }

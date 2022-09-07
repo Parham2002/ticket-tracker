@@ -1,12 +1,14 @@
 import React from 'react'
 import "./Card.scss"
 import CardHeader from './Header/CardHeader'
+import CounterContainer from './CounterContainer/CounterContainer'
 
 function Card() {
   return (
     <>
     <div className='card'>
       <CardHeader/>
+      <CounterContainer/>
     </div>
     <div className='card'>Card2</div>
     <div className='card'>Card3</div>

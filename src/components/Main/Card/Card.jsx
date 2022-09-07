@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Card.scss"
+import CardHeader from './Header/CardHeader'
 
 function Card() {
   return (
     <>
-    <div className='card'>Card1</div>
+    <div className='card'>
+      <CardHeader/>
+    </div>
     <div className='card'>Card2</div>
     <div className='card'>Card3</div>
     <div className='card'>Card4</div>

@@ -3,7 +3,7 @@ import "./AddButton.scss"
 
 const AddButton = () => {
   return (
-    <div>+</div>
+    <div className='increment'>+</div>
   )
 }
 

@@ -3,23 +3,15 @@ import "./Card.scss"
 import CardHeader from './Header/CardHeader'
 import CounterContainer from './CounterContainer/CounterContainer'
 
-function Card() {
+
+function Card(props) {
+  const {data} = props
+
   return (
-    <>
     <div className='card'>
-      <CardHeader/>
+      <CardHeader name={data.name} role={data.role}/>
       <CounterContainer/>
     </div>
-    <div className='card'>Card2</div>
-    <div className='card'>Card3</div>
-    <div className='card'>Card4</div>
-    <div className='card'>Card5</div>
-    <div className='card'>Card6</div>
-    <div className='card'>Card7</div>
-    <div className='card'>Card8</div>
-    <div className='card'>Card9</div>
-    <div className='card'>Card10</div>
-    </>
   )
 }
 

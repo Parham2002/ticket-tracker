@@ -5,7 +5,7 @@ const Counter = (props) => {
   const {count} = props
 
   return (
-    <div className='counter'>{count}</div>
+    <div className='counter'><b>{count}</b></div>
   )
 }
 

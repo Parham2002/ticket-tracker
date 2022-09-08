@@ -9,8 +9,12 @@ const Card = (props) => {
 
   return (
     <div className='card'>
-      <CardHeader name={data.name} role={data.role}/>
-      <CounterContainer/>
+      <div className='card__header'>
+        <CardHeader name={data.name} role={data.role}/>
+      </div>
+      <div className='card__counter'>
+        <CounterContainer/>
+      </div>
     </div>
   )
 }

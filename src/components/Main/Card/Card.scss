@@ -4,10 +4,18 @@
 }
 
 .card {
-    width: 200px;
+    min-width: 200px;
+    min-height: 300px;
     border: 2px solid black;
     margin: 20px;
     margin-left: 40px;
     background-color: white;
     opacity: 0.8;
+
+    &__header {
+        min-height: 30%;
+    }
+    &__counter {
+        min-height: 70%;
+    }
 }

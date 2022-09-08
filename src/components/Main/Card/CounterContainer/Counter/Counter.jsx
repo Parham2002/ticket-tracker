@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Counter.scss"
 
-const Counter = () => {
+const Counter = (props) => {
+  const {count} = props
+
   return (
-    <div className='counter'>0</div>
+    <div className='counter'>{count}</div>
   )
 }
 

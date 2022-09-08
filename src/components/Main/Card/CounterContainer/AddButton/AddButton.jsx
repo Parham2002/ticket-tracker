@@ -1,9 +1,11 @@
 import React from 'react'
 import "./AddButton.scss"
 
-const AddButton = () => {
+const AddButton = (props) => {
+  const {func} = props;
+
   return (
-    <div className='increment'>+</div>
+    <div onClick={func} className='increment'>+</div>
   )
 }
 

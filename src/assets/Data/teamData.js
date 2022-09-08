@@ -26,22 +26,22 @@ const teamData = [
     },
     {
         id: 6,
-        name: "NPC1 #5",
+        name: "NPC #5",
         role: "Software Developer"
     },
     {
         id: 7,
-        name: "NPC1 #6",
+        name: "NPC #6",
         role: "Software Developer"
     },
     {
         id: 8,
-        name: "NPC1 #7",
+        name: "NPC #7",
         role: "Software Developer"
     },
     {
         id: 9,
-        name: "NPC1 #8",
+        name: "NPC #8",
         role: "Software Developer"
     },
     {

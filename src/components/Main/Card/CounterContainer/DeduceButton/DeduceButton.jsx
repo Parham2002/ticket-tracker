@@ -3,7 +3,7 @@ import "./DeduceButton.scss"
 
 const DeduceButton = () => {
   return (
-    <div>-</div>
+    <div className='decrement'>-</div>
   )
 }
 

@@ -4,7 +4,7 @@ import CardHeader from './Header/CardHeader'
 import CounterContainer from './CounterContainer/CounterContainer'
 
 
-function Card(props) {
+const Card = (props) => {
   const {data} = props
 
   return (

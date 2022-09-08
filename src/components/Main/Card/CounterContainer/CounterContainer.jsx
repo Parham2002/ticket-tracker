@@ -6,14 +6,16 @@ import DeduceButton from './DeduceButton/DeduceButton'
 import { useState } from 'react'
 
 const CounterContainer = () => {
-  let [count=0, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
   const handleIncrement = () => {
-    setCount(count++)
+    
+    setCount(count+1)
   }
 
   const handleDecrement = () => {
-    if (count >= 0) {
+    if (count > 0) {
+      setCount(count-1)
     }
   }
 
@@ -27,8 +29,6 @@ const CounterContainer = () => {
         <DeduceButton func={handleDecrement}/>
         <AddButton func={handleIncrement}/>
       </div>
-
-
     </div>
   )
 }

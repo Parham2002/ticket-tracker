@@ -1,9 +1,10 @@
 import React from 'react'
 import "./DeduceButton.scss"
 
-const DeduceButton = () => {
+const DeduceButton = (props) => {
+  const {func} = props
   return (
-    <div className='decrement'>-</div>
+    <div onClick={func} className='decrement'>-</div>
   )
 }
 

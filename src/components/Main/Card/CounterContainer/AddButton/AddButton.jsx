@@ -5,7 +5,7 @@ const AddButton = (props) => {
   const {func} = props;
 
   return (
-    <div onClick={func} className='increment'>+</div>
+    <div onClick={func} className='increment'><button className='increment__button'>+</button></div>
   )
 }
 

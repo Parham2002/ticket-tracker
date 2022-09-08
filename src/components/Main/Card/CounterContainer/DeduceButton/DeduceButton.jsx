@@ -4,7 +4,7 @@ import "./DeduceButton.scss"
 const DeduceButton = (props) => {
   const {func} = props
   return (
-    <div onClick={func} className='decrement'>-</div>
+    <div onClick={func} className='decrement'><button className='decrement__button'>-</button></div>
   )
 }
 

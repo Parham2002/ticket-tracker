@@ -1,54 +1,53 @@
-const teamData = [
+const team = [
     {
-        id: 1,
-        name: "Parham",
-        role: "Professional Slacker"
+      id: 1,
+      name: "Alima Miller",
+      role: "Junior Software Developer"
     },
     {
-        id: 2,
-        name: "NPC #1",
-        role: "Software Developer"
+      id: 2,
+      name: "Evelyn Rodgers",
+      role: "Junior Software Developer"
     },
     {
-        id: 3,
-        name: "NPC #2",
-        role: "Software Developer"
+      id: 3,
+      name: "Henley Myers",
+      role: "Junior Software Developer"
     },
     {
-        id: 4,
-        name: "NPC #3",
-        role: "Software Developer"
+      id: 4,
+      name: "Celyn Sanders",
+      role: "Software Developer"
     },
     {
-        id: 5,
-        name: "NPC #4",
-        role: "Software Developer"
+      id: 5,
+      name: "Effie Mohamed",
+      role: "Software Developer"
     },
     {
-        id: 6,
-        name: "NPC #5",
-        role: "Software Developer"
+      id: 6,
+      name: "Karam Lees",
+      role: "Senior Software Developer"
     },
     {
-        id: 7,
-        name: "NPC #6",
-        role: "Software Developer"
+      id: 7,
+      name: "Eleanor Dowling",
+      role: "Project Manager"
     },
     {
-        id: 8,
-        name: "NPC #7",
-        role: "Software Developer"
+      id: 8,
+      name: "Haris Grey",
+      role: "Tester"
     },
     {
-        id: 9,
-        name: "NPC #8",
-        role: "Software Developer"
+      id: 9,
+      name: "Sohaib Farley",
+      role: "Tester"
     },
     {
-        id: 10,
-        name: "NPC #9",
-        role: "Software Developer"
+      id: 10,
+      name: "Phillip Mitchell",
+      role: "Hard Man"
     },
-]
-
-export default teamData
+  ]
+  export default team;

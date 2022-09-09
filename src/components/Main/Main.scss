@@ -13,11 +13,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    z-index: 1;
 
-    &__background--img {
-        position: absolute;
-        z-index: -1;
-        margin: -20px;
+
+    &__addcard--img {
+    min-width: 100px;
+    min-height: 100px;
+    margin: 100px;
+    margin-left: 80px;
+
     }
 }

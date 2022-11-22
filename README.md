@@ -9,6 +9,24 @@ If I had more time to spend on this project, I would:
 1. Improve the code allowing new cards to be added through the button click
 2. Add a search/filter option on the page
 3. Improve aesthetics/ do more styling
-4. Add more pseudocode to code
+4. Add more comments to code
 4. Make it so that the newly created cards allow inputs for name and role of the employee
 5. Add a remove option for cards
+
+
+Technologies and methods used:
+- HTML
+- CSS
+- SCSS
+- React
+- JSX
+- Git
+- Git Pages
+- Functions
+- Arrays
+- Objects
+- useState
+- Object destructuring
+- Child/parent components
+
+![Screenshot (8)](https://user-images.githubusercontent.com/98832011/203291706-78b6071e-c14f-43e6-8f42-aa7974d7f3ff.png)
